@@ -539,17 +539,19 @@ a {
 
     /*main start*/
     .main .container {
-        padding: 95px 33px 328px;
+        padding: 56px 20px 348px;
     }
     .main_name-logo {
         width: 290px;
         top: inherit;
         bottom: 269px;
+        right: 20px;
     }
     .main_boy {
         width: 233px;
         bottom: 0;
         top: inherit;
+        right: 20px;
     }
     .main_info {
         font-size: 14px;
