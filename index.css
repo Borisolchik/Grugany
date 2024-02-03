@@ -203,6 +203,43 @@ a {
 }
 /*info end*/
 
+/*partners start*/
+.partners-title {
+    color: #161414;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 1.6px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.partners-items {
+    background-image: url("images/partners_background.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px 90px;
+    padding: 117px 80px 183px;
+}
+.partners-action {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 48px;
+    margin-top: 20px;
+}
+.partners-action a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #161414;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+/*partners end*/
+
 /* footer start */
 .footer {
     background: #161414;
@@ -376,6 +413,10 @@ a {
     }
     /* info end */
 
+    .footer .container {
+        gap: 40px;
+    }
+
 }
 
 @media screen and (max-width: 950px) {
@@ -394,6 +435,12 @@ a {
 
     .header-mob {
         display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+        background: #FCFCFC;
     }
 
     body._touch .menu__arrow {
@@ -546,7 +593,6 @@ a {
 
     .menu__sub-list {
         position: relative;
-        background-color: white;
         flex: 1 1 100%;
         margin: 20px 0 0 0;
         display: none;
@@ -712,10 +758,24 @@ a {
     }
     /*info end */
 
+    /* partners start */
+    .partners-items {
+    gap: 60px;
+    }
+    .partners-item svg {
+        max-width: 100px;
+    }
+    .partners-item.bank-db svg {
+        max-width: 120px;
+    }
+    /* partners end */
+
     /* footer start */
     .footer .container {
         flex-wrap: wrap;
         padding: 35px 20px 40px;
+        gap:0;
+        justify-content: center;
     }
     .footer-left-bottom-mob {
         font-size: 14px;
@@ -760,3 +820,32 @@ a {
     }
     /* footer end */
 }
+
+@media screen and (max-width: 480px) {
+    .partners-items {
+        background-image: url("images/partners_background_mob.png");
+        padding: 56px 40px;
+        justify-content: center;
+    }
+    .partners-title {
+        color: #161414;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+    .partners-action {
+        margin-bottom: 60px;
+    }
+    .partners-action a{
+        color: #161414;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.8px;
+        gap: 10px;
+    }
+    .partners-action a svg{
+        width: 20px;
+    }
+}
+
