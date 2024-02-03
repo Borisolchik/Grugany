@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Grugany</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link href="https://fonts.cdnfonts.com/css/tt-norms-pro" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </head>
 <body>
 
@@ -167,7 +171,6 @@
         </div>
     </div>
 </section>
-
 <section class="partners">
     <div class="container">
         <div class="partners-title">ПАРТНЁРЫ</div>
@@ -317,6 +320,43 @@
     </div>
 </section>
 
+<section class="news">
+    <div class="container">
+        <div class="news-title">НОВОСТИ</div>
+        <div class="news-items" id="news-items">
+            <a href="#" class="new-item">
+                <img src="images/new1.png" alt="news">
+                <div class="new-item-title">Новые тренировочные манишки с фирменным лого</div>
+                <div class="new-item-date">Вторник, 07.10.2023</div>
+            </a>
+            <a href="#" class="new-item">
+                <img src="images/new2.png" alt="news">
+                <div class="new-item-title">Прошёл первый розыгрыш ГРУГАНЫ-CUP.</div>
+                <div class="new-item-date">Вторник, 07.10.2023</div>
+            </a>
+            <a href="#" class="new-item">
+                <img src="images/new3.png" alt="news">
+                <div class="new-item-title">ГРУГАНЫ - ФШ Ю. Пунтуса 5 - 2.</div>
+                <div class="new-item-date">Вторник, 07.10.2023</div>
+            </a>
+            <a href="#" class="new-item">
+                <img src="images/new4.png" alt="news">
+                <div class="new-item-title">Прошёл первый розыгрыш ГРУГАНЫ-CUP.</div>
+                <div class="new-item-date">Вторник, 07.10.2023</div>
+            </a>
+        </div>
+        <div class="news-action">
+            <a href="#">
+                <span>Читать больше</span>
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18.0374 23.5249C17.7999 23.5249 17.5624 23.4374 17.3749 23.2499C17.0124 22.8874 17.0124 22.2874 17.3749 21.9249L24.2999 14.9999L17.3749 8.0749C17.0124 7.7124 17.0124 7.1124 17.3749 6.7499C17.7374 6.3874 18.3374 6.3874 18.6999 6.7499L26.2874 14.3374C26.6499 14.6999 26.6499 15.2999 26.2874 15.6624L18.6999 23.2499C18.5124 23.4374 18.2749 23.5249 18.0374 23.5249Z" fill="#161414"/>
+                    <path d="M25.413 15.9375H4.37549C3.86299 15.9375 3.43799 15.5125 3.43799 15C3.43799 14.4875 3.86299 14.0625 4.37549 14.0625H25.413C25.9255 14.0625 26.3505 14.4875 26.3505 15C26.3505 15.5125 25.9255 15.9375 25.413 15.9375Z" fill="#161414"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+
 <footer class="footer">
     <div class="container">
         <div class="footer-left">
@@ -389,6 +429,9 @@
         </div>
     </div>
 </footer>
-<script src="index.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.js?ver=6.4.3" id="jquery-js"></script>
+<script src="scripts/index.js"></script>
+<script src="scripts/slick.min.js"></script>
+
 </body>
 </html>
