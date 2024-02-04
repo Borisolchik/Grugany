@@ -51,26 +51,3 @@ if (iconMenu) {
         menuBody.classList.toggle('_active')
     })
 }
-// $(document).ready(function() {
-//     $("#news-items").slick({
-//         slidesToScroll: 1,
-//         centerPadding: '60px',
-//         slidesToShow: 4,
-//         responsive: [
-//             {
-//                 breakpoint: 1351,
-//                 settings: {
-//                     centerPadding: '40px',
-//                     slidesToShow: 3
-//                 }
-//             },
-//             {
-//                 breakpoint: 1157,
-//                 settings: {
-//                     centerPadding: '5px',
-//                     slidesToShow: 2
-//                 }
-//             }
-//         ]
-//     });
-// });

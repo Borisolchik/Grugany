@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'TT Norms Pro', sans-serif;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+.mob {
+    display: none;
+}
+
+.banner .container {
+    position: relative;
+    padding: 0 80px 262px;
+}
+.banner_bg {
+    position: absolute;
+    bottom: 0;
+    right: 80px;
+}
+.banner_image {
+    display: none;
+}
+.breadcrumbs {
+    margin-bottom: 120px;
+}
+.breadcrumbs a {
+    color: #161414;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.8px;
+}
+.breadcrumbs a.active {
+    font-weight: 700;
+}
+.banner-title {
+    color: #161414;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 1.6px;
+    max-width: 561px;
+    margin-bottom: 80px;
+}
+.banner-description {
+    color: #161414;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 1.2px;
+    margin-bottom: 30px;
+}
+.banner-action a {
+    display: flex;
+    width: 200px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: #F5C643;
+    color: #161414;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.banner-bottom svg{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 1439px) {
+
+}
+
+@media screen and (max-width: 1350px) {
+    .banner .container {
+        padding: 0 80px 160px;
+    }
+    .banner_bg {
+        max-width: 650px;
+    }
+}
+
+@media screen and (max-width: 1225px) {
+    .banner .container {
+        padding: 0 20px 100px;
+    }
+    .banner_bg {
+        display: none;
+    }
+    .banner_image {
+        display: block;
+        margin: 0 auto 20px;
+        width: 600px;
+    }
+    .banner_image img {
+        width: 100%;
+    }
+    .breadcrumbs {
+        margin-bottom: 36px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .banner .container {
+        padding: 50px 20px 36px;
+    }
+    .banner_image {
+        width: calc(100% + 40px);
+        margin: 0 -20px 20px;
+    }
+    .breadcrumbs a {
+        font-size: 10px;
+        line-height: 14px;
+        letter-spacing: 0.5px;
+    }
+    .banner-title {
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 1px;
+        margin-bottom: 40px;
+        max-width: 320px;
+    }
+    .banner-description {
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.8px;
+        margin-bottom: 20px;
+    }
+    .banner-action a {
+        width: 125px;
+        height: 30px;
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: 0.7px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+}
