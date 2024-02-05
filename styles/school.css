@@ -220,6 +220,47 @@ a {
     justify-content: center;
 }
 
+.photos .container {
+    background-image: url("../images/photos_bg.png");
+    background-position: center;
+    background-size: cover;
+    padding: 81px 20px 119px;
+}
+.photos_items {
+    display: flex;
+    gap: 26px;
+    justify-content: center;
+}
+.photos_items img {
+    width: 100%;
+}
+.photos_one-top {
+    width: 348px;
+    height: 343px;
+    margin-bottom: 26px;
+}
+.photos_one-bottom {
+    width: 349px;
+    height: 231px;
+}
+.photos_two-top {
+    width: 348px;
+    height: 231px;
+    margin-bottom: 26px;
+}
+.photos_two-bottom {
+    width: 349px;
+    height: 343px;
+}
+.photos_three-top {
+    width: 349px;
+    height: 343px;
+    margin-bottom: 26px;
+}
+.photos_three-bottom {
+    width: 349px;
+    height: 231px;
+}
 @media screen and (max-width: 1439px) {
 
 }
@@ -291,6 +332,35 @@ a {
         font-size: 18px;
         width: 290px;
     }
+
+
+    .photos_one-top {
+        width: 248px;
+        height: 243px;
+        margin-bottom: 26px;
+    }
+    .photos_one-bottom {
+        width: 249px;
+        height: 165px;
+    }
+    .photos_two-top {
+        width: 248px;
+        height: 165px;
+        margin-bottom: 26px;
+    }
+    .photos_two-bottom {
+        width: 249px;
+        height: 243px;
+    }
+    .photos_three-top {
+        width: 249px;
+        height: 243px;
+        margin-bottom: 26px;
+    }
+    .photos_three-bottom {
+        width: 249px;
+        height: 165px;
+    }
 }
 
 @media screen and (max-width: 950px) {
@@ -330,6 +400,48 @@ a {
         font-size: 20px;
         line-height: 34px;
         letter-spacing: 1px;
+    }
+
+    .mob {
+        display: block;
+    }
+    .photos .container {
+        background-position: inherit;
+        padding: 70px 20px 96px;
+    }
+    .photos_items {
+        align-items: center;
+        gap: 10px;
+    }
+    .photos_one-top {
+        width: 155px;
+        height: 158px;
+        margin-bottom: 10px;
+    }
+    .photos_one-bottom {
+        width: 155px;
+        height: 103px;
+        margin-bottom: 10px;
+    }
+    .photos_three-top.mob {
+        width: 155px;
+        height: 158px;
+        margin-bottom: 0;
+    }
+    .photos_two-top {
+        width: 155px;
+        height: 103px;
+        margin-bottom: 10px;
+    }
+    .photos_two-bottom {
+        width: 155px;
+        height: 158px;
+        margin-bottom: 10px;
+    }
+    .photos_three-bottom.mob {
+        width: 154px;
+        height: 103px;
+        margin-bottom: 0;
     }
 }
 
