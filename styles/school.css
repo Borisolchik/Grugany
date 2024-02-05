@@ -120,6 +120,45 @@ a {
     letter-spacing: 0.8px;
     max-width: 325px;
 }
+
+.reviews .container {
+    padding: 0 80px 80px;
+}
+.reviews-title {
+    color: #161414;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 1.6px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.reviews-items {
+    margin: 0 -20px;
+}
+.reviews-item {
+    background: #D9D9D9;
+    margin: 0 20px;
+    height: 400px;
+}
+.reviews .slick-dots {
+    bottom: -55px;
+}
+
+.ribbon {
+    background: #F5C643;
+    display: flex;
+    gap: 50px;
+    overflow: hidden;
+    padding: 21px 26px;
+}
+.ribbon-item {
+    color: #161414;
+    font-size: 48px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
 @media screen and (max-width: 1439px) {
 
 }
@@ -188,6 +227,18 @@ a {
         background-image: url("../images/advantages_bg_mob.png");
     }
 
+    .reviews-item {
+        height: 200px;
+    }
+    .ribbon {
+        gap: 40px;
+        padding: 3px 20px;
+    }
+    .ribbon-item {
+        font-size: 20px;
+        line-height: 34px;
+        letter-spacing: 1px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -208,6 +259,7 @@ a {
     }
     .advantages_items {
         padding: 86px 20px 105px;
+        background-position: inherit;
     }
     .advantages_item-img {
         width: 43px;
@@ -226,5 +278,22 @@ a {
         line-height: 20px;
         letter-spacing: 0.7px;
         max-width: 245px;
+    }
+
+    .reviews .container {
+        padding: 60px 20px 93px;
+    }
+    .reviews-title {
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+    .reviews-items {
+        margin:0;
+    }
+    .reviews-item {
+        height: 320px;
+        margin:0;
     }
 }

@@ -51,3 +51,27 @@ if (iconMenu) {
         menuBody.classList.toggle('_active')
     })
 }
+$(document).ready(function() {
+    $('.reviews-items').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        dots: true,
+        responsive: [
+            {
+                breakpoint: 1225, // - от какой ширины изменять настройки(1024 и ниже)
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 480, // - от какой ширины изменять настройки(1024 и ниже)
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+        ]
+    });
+});
