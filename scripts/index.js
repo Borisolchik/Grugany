@@ -74,4 +74,19 @@ $(document).ready(function() {
             },
         ]
     });
+
+
+    let array1 = document.querySelectorAll('.trainers-item');
+    for (let i = 3; i < array1.length; i++) {
+        array1[i].classList.add('none');
+    }
+    const button1 = document.querySelector('#trainers_btn');
+    button1.addEventListener('click', () => {
+        let elements1 = document.querySelectorAll('.trainers-item.none');
+
+        for (let i = 0; i < elements1.length; i++) {
+            elements1[i].classList.remove('none');
+        }
+        button1.classList.add('none');
+    });
 });
