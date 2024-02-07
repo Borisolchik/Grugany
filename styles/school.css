@@ -428,6 +428,54 @@ a {
     margin-right: 159px;
 }
 
+.programs .container {
+    padding: 80px 20px 100px;
+}
+.programs_items {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-bottom: 100px;
+}
+.programs_item {
+    max-width: 451px;
+}
+.programs_item-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50%;
+    color: #161414;
+    margin-bottom: 40px;
+}
+.programs_item-age {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50%;
+    letter-spacing: 0.05em;
+    color: #161414;
+    margin-bottom: 40px;
+}
+.programs_item-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 250%;
+    letter-spacing: 0.05em;
+    color: #161414;
+    max-width: 451px;
+}
+.programs_item-info span {
+    font-weight: 700;
+}
+.programs_item-price {
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 67%;
+    letter-spacing: 0.05em;
+    color: #161414;
+    text-align: center;
+}
+
 @media screen and (max-width: 1439px) {
     .trainers-items {
         gap: 80px 40px;
@@ -550,6 +598,13 @@ a {
         padding: 60px 20px;
     }
     .principles_box {
+        gap: 60px;
+    }
+
+    .programs .container {
+        padding: 60px 20px 80px;
+    }
+    .programs_items {
         gap: 60px;
     }
 }
@@ -781,6 +836,36 @@ a {
     }
     .principles_image-boy {
         max-width: 206px;
+    }
+
+    .programs_items {
+        flex-wrap: wrap;
+        gap: 40px;
+        margin-bottom: 80px;
+    }
+    .programs_item-title {
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.05em;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .programs_item-age {
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.05em;
+        margin-bottom: 20px;
+    }
+    .programs_item-info {
+        font-size: 14px;
+        line-height: 250%;
+        letter-spacing: 0.05em;
+    }
+    .programs_item-price {
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.05em;
+        margin-top: 20px;
     }
 }
 
