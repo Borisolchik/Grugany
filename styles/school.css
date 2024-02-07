@@ -358,6 +358,75 @@ a {
     color: #161414; font-size: 20px; font-weight: 700; line-height: 30px; letter-spacing: 1px;
 }
 
+.video .container {
+    background: url("../images/video_bg.png");
+    background-size: cover;
+    background-position: center;
+    padding: 116px 20px 84px;
+    display: flex;
+    justify-content: center;
+}
+
+.principles .container {
+    padding: 80px 80px 100px;
+}
+.principles_title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 156%;
+    letter-spacing: 0.05em;
+    color: #161414;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.principles_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.principles_item {
+    display: flex;
+    gap: 42px;
+    margin-bottom: 20px;
+}
+.principles_item:last-child {
+    margin-bottom: 0;
+}
+.principles_item-number {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 125%;
+    color: #161414;
+    width: 30px;
+}
+.principles_item-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #161414;
+}
+.principles_item-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: 0.05em;
+    color: #161414;
+    max-width: 487px;
+}
+.principles_image {
+    position: relative;
+}
+.principles_image-bg {
+    position: absolute;
+    z-index: -1;
+    top: -31px;
+    left: 21px;
+}
+.principles_image-boy {
+    margin-right: 159px;
+}
 
 @media screen and (max-width: 1439px) {
     .trainers-items {
@@ -393,6 +462,10 @@ a {
     .trainers-items {
         gap: 80px 85px;
         justify-content: center;
+    }
+
+    .principles_image-boy {
+        margin-right: 120px;
     }
 }
 
@@ -471,6 +544,13 @@ a {
 
     .affiliate .container {
         padding: 0 20px 80px;
+    }
+
+    .principles .container {
+        padding: 60px 20px;
+    }
+    .principles_box {
+        gap: 60px;
     }
 }
 
@@ -654,6 +734,53 @@ a {
     .affiliate-action a {
         width: 125px; height: 30px;
         font-size: 14px; font-weight: 700; line-height: 30px; letter-spacing: 0.70px;
+    }
+
+    .video .container {
+        background-image: url("../images/video_bg-mob.png");
+    }
+    .video .container img {
+        width: 100%;
+    }
+
+    .principles_box {
+        flex-wrap: wrap;
+        gap: 40px;
+        margin-bottom: 37px;
+    }
+    .principles_title {
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.05em;
+        margin-bottom: 20px;
+    }
+    .principles_item {
+        gap: 18px;
+    }
+    .principles_item-number {
+        font-size: 16px;
+        line-height: 125%;
+        width: 20px;
+    }
+    .principles_item-title {
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: 0.05em;
+        margin-bottom: 10px;
+    }
+    .principles_item-description {
+        font-size: 13px;
+        line-height: 154%;
+        letter-spacing: 0.05em;
+        max-width: 100%;
+    }
+    .principles_image-bg {
+        max-width: 328px;
+        top: -17px;
+        left: 12px;
+    }
+    .principles_image-boy {
+        max-width: 206px;
     }
 }
 
