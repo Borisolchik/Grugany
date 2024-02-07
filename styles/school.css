@@ -476,6 +476,42 @@ a {
     text-align: center;
 }
 
+.questions .container {
+    padding: 0 20px 200px;
+}
+.questions_title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 156%;
+    letter-spacing: 0.05em;
+    color: #161414;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.questions-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px 140px;
+}
+.question-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #161414;
+    margin-bottom: 20px;
+    max-width: 540px;
+}
+.question-answer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: 0.05em;
+    color: #161414;
+    max-width: 540px;
+}
+
 @media screen and (max-width: 1439px) {
     .trainers-items {
         gap: 80px 40px;
@@ -514,6 +550,10 @@ a {
 
     .principles_image-boy {
         margin-right: 120px;
+    }
+
+    .question-answer {
+        max-width: 440px;
     }
 }
 
@@ -606,6 +646,16 @@ a {
     }
     .programs_items {
         gap: 60px;
+    }
+
+    .questions-items {
+        gap: 40px 30px;
+    }
+    .question-title {
+        max-width: 350px;
+    }
+    .question-answer {
+        max-width: 350px;
     }
 }
 
@@ -866,6 +916,29 @@ a {
         line-height: 150%;
         letter-spacing: 0.05em;
         margin-top: 20px;
+    }
+
+    .questions .container {
+        padding: 0 20px 120px;
+    }
+    .questions_title {
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.05em;
+        margin-bottom: 20px;
+    }
+    .question-title {
+        max-width: 100%;
+        font-size: 16px;
+        line-height: 187%;
+        letter-spacing: 0.05em;
+        margin-bottom: 10px;
+    }
+    .question-answer {
+        max-width: 100%;
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: 0.05em;
     }
 }
 
