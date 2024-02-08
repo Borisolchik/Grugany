@@ -43,6 +43,41 @@ a {
     max-width: 370px;
 }
 
+.partners_banks .container {
+    padding: 0 20px 200px;
+}
+.partners_banks-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 142%;
+    letter-spacing: 0.05em;
+    color: #161414;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.partners_banks-items {
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+}
+.partners_banks-item-text {
+    max-width: 480px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #161414;
+}
+.partners_banks-item-link a {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #161414;
+}
+
 @media screen and (max-width: 1439px) {
     .partners_items {
         gap: 80px 40px;
@@ -53,6 +88,10 @@ a {
         justify-content: center;
         gap: 80px 80px;
     }
+
+    .partners_banks-items {
+        gap: 80px;
+    }
 }
 @media screen and (max-width: 1225px) {
     .partners .container {
@@ -60,6 +99,10 @@ a {
     }
     .partners_items {
         justify-content: space-between;
+    }
+
+    .partners_banks-items {
+        gap: 50px;
     }
 }
 @media screen and (max-width: 950px) {
@@ -88,6 +131,39 @@ a {
         line-height: 143%;
         letter-spacing: 0.05em;
         max-width: 100%;
+    }
+
+    .partners_banks .container {
+        padding: 0 20px 120px;
+    }
+    .partners_banks-items {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .partners_banks-title {
+        font-size: 16px;
+        line-height: 187%;
+        letter-spacing: 0.05em;
+        margin-bottom: 40px;
+    }
+    .partners_banks-item-logo {
+        max-height: 40px;
+        height: 40px;
+    }
+    .partners_banks-item-logo img {
+        height: 100%;
+    }
+    .partners_banks-item-text {
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: 0.05em;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .partners_banks-item-link {
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: 0.05em;
     }
 }
 @media screen and (max-width: 480px) {
