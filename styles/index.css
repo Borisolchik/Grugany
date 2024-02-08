@@ -14,6 +14,16 @@ a {
 .mob {
     display: none;
 }
+.breadcrumbs a {
+    color: #161414;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.8px;
+}
+.breadcrumbs a.active {
+    font-weight: 700;
+}
 
 .header .container {
     display: flex;
@@ -831,6 +841,11 @@ a {
 }
 
 @media screen and (max-width: 480px) {
+    .breadcrumbs a {
+        font-size: 10px;
+        line-height: 14px;
+        letter-spacing: 0.5px;
+    }
     .partners-items {
         background-image: url("../images/partners_background_mob.png");
         padding: 56px 40px;
