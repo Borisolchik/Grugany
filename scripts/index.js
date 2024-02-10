@@ -75,6 +75,29 @@ $(document).ready(function() {
         ]
     });
 
+    $('.news_items').slick({
+        // infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        responsive: [
+            // {
+            //     breakpoint: 1225, // - от какой ширины изменять настройки(1024 и ниже)
+            //     settings: {
+            //         slidesToShow: 2,
+            //         slidesToScroll: 2
+            //     }
+            // },
+            // {
+            //     breakpoint: 480, // - от какой ширины изменять настройки(1024 и ниже)
+            //     settings: {
+            //         slidesToShow: 1,
+            //         slidesToScroll: 1
+            //     }
+            // },
+        ]
+    });
+
 
     let array1 = document.querySelectorAll('.trainers-item');
     for (let i = 3; i < array1.length; i++) {
@@ -89,4 +112,5 @@ $(document).ready(function() {
         }
         button1.classList.add('none');
     });
+
 });

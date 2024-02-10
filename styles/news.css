@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'TT Norms Pro', sans-serif;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+.mob {
+    display: none;
+}
+
+.news .container {
+    padding: 10px 80px 200px;
+}
+.news_title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 156%;
+    letter-spacing: 0.05em;
+    color: #161414;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.news_items {
+    max-width: 800px;
+    margin: 0 auto;
+    border-top: 1px solid #161414;
+}
+.news_item {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid #161414;
+}
+.news_item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.news_item-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #161414;
+    max-width: 360px;
+}
+.news_item-date {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: 0.05em;
+    color: #161414;
+}
+.news_item-image {
+    max-width: 313px;
+}
+.news_item-image img{
+    width: 100%;
+}
+.slick-dots {
+    bottom: -65px !important;
+}
+
+@media screen and (max-width: 1439px) {
+
+}
+@media screen and (max-width: 1350px) {
+
+}
+@media screen and (max-width: 1225px) {
+
+}
+@media screen and (max-width: 950px) {
+    .news .container {
+        padding: 50px 20px 120px;
+    }
+    .news_title {
+       margin-top: 36px;
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.05em;
+    }
+    .news_item {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    .news_item-text {
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: 0.05em;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .news_item-date {
+        font-size: 12px;
+        line-height: 167%;
+        letter-spacing: 0.05em;
+        margin-bottom: 20px;
+    }
+    .news_item-image {
+        max-width: 150px;
+    }
+}
+@media screen and (max-width: 480px) {
+}
