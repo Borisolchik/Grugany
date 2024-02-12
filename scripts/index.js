@@ -76,26 +76,21 @@ $(document).ready(function() {
     });
 
     $('.news_items').slick({
-        // infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
         dots: true,
-        responsive: [
-            // {
-            //     breakpoint: 1225, // - от какой ширины изменять настройки(1024 и ниже)
-            //     settings: {
-            //         slidesToShow: 2,
-            //         slidesToScroll: 2
-            //     }
-            // },
-            // {
-            //     breakpoint: 480, // - от какой ширины изменять настройки(1024 и ниже)
-            //     settings: {
-            //         slidesToShow: 1,
-            //         slidesToScroll: 1
-            //     }
-            // },
-        ]
+    });
+
+    $('.article_items').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: false,
+    });
+
+    $('.albums_items').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
     });
 
 
