@@ -93,6 +93,12 @@ $(document).ready(function() {
         dots: true,
     });
 
+    $('.gallery_slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+    });
+
 
     let array1 = document.querySelectorAll('.trainers-item');
     for (let i = 3; i < array1.length; i++) {

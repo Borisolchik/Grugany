@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'TT Norms Pro', sans-serif;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+.mob {
+    display: none;
+}
+
+.gallery .container {
+    padding: 10px 80px 200px;
+}
+.gallery_title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 156%;
+    letter-spacing: 0.05em;
+    color: #161414;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.gallery_items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 200px;
+}
+.gallery_item {
+    max-width: 240px;
+}
+.gallery_item img {
+    width: 100%;
+}
+.gallery_more-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 142%;
+    letter-spacing: 0.05em;
+    color: #161414;
+    margin-bottom: 40px;
+}
+.gallery_more-items {
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+}
+.gallery_more-item {
+    border: 1px solid #161414;
+    border-radius: 4px;
+    max-width: 300px;
+}
+.gallery_more-item-image {
+    border-radius: 4px 4px 0 0;
+    max-width: 300px;
+    width: 300px;
+    margin-top: -1px;
+    margin-left: -1px;
+}
+.gallery_more-item-image img{
+    border-radius: 4px 4px 0 0;
+    width: 100%;
+}
+.gallery_more-item-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 110px;
+}
+.gallery_more-item-name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: 0.05em;
+    color: #161414;
+    margin: 10px 4px 0;
+}
+.gallery_more-item-date {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.05em;
+    color: #161414;
+    margin: 0 0 9px 4px;
+}
+
+@media screen and (max-width: 1439px) {
+}
+@media screen and (max-width: 1350px) {
+}
+@media screen and (max-width: 1225px) {
+}
+@media screen and (max-width: 950px) {
+    .gallery .container {
+        padding: 50px 20px 120px;
+    }
+    .gallery_title {
+        font-size: 16px;
+        line-height: 187%;
+        letter-spacing: 0.05em;
+        margin-top: 36px;
+        margin-bottom: 40px;
+    }
+    .gallery_items {
+        gap: 10px;
+        justify-content: center;
+    }
+    .gallery_item {
+        max-width: 155px;
+    }
+    .gallery_items {
+        margin-top: 0;
+        margin-bottom: 150px;
+    }
+    .gallery_more-title {
+        font-size: 16px;
+        line-height: 187%;
+        letter-spacing: 0.05em;
+        margin-bottom: 20px;
+    }
+    .gallery_more-item {
+        max-width: 155px;
+    }
+    .gallery_more-item-image {
+        max-width: 155px;
+        width: 155px;
+    }
+    .gallery_more-item-box {
+        height: 97px;
+    }
+    .gallery_more-item-name {
+        margin: 7px 5px 10px;
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: 0.05em;
+    }
+    .gallery_more-item-date {
+        margin-bottom: 7px;
+        margin-left: 5px;
+        font-size: 10px;
+        line-height: 140%;
+        letter-spacing: 0.05em;
+    }
+}
+@media screen and (max-width: 480px) {
+}
