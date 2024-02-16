@@ -1025,4 +1025,11 @@ a {
         line-height: 30px;
         letter-spacing: 0.7px;
     }
+    .banner-action button{
+        width: 125px;
+        height: 30px;
+        font-size: 14px;
+        line-height: 214%;
+        letter-spacing: 0.05em;
+    }
 }

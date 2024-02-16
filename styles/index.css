@@ -1119,5 +1119,13 @@ a {
     .footer-left-top {
         gap: 82px;
     }
+    .close {
+        top: 10px;
+        right: 10px;
+    }
+    .close svg {
+        width: 35px !important;
+        height: 35px;
+    }
 }
 
