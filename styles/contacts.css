@@ -119,9 +119,70 @@ a {
 
 }
 @media screen and (max-width: 1225px) {
+    .affiliate .container {
+        padding: 0 20px 80px;
+    }
 
 }
 @media screen and (max-width: 950px) {
+    .contacts .container {
+        padding: 50px 20px 60px;
+    }
+    .contacts_title {
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.05em;
+        margin-top: 36px;
+        margin-bottom: 40px;
+    }
+    .contacts_item-title {
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: 0.05em;
+        margin-bottom: 10px;
+    }
+    .contacts_item-name {
+        font-size: 16px;
+        line-height: 187%;
+        letter-spacing: 0.05em;
+        margin-bottom: 10px;
+    }
+    .contacts_items {
+        gap: 40px;
+    }
+    .contacts_item-number img {
+        max-width: 20px;
+    }
+    .contacts_item-number {
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: 0.05em;
+    }
+    .contacts_item-mail img {
+        max-width: 20px;
+    }
+    .contacts_item-mail {
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: 0.05em;
+    }
+    .requisites .container {
+        padding: 0 20px 120px;
+    }
+    .requisites_title {
+        font-size: 16px;
+        line-height: 187%;
+        letter-spacing: 0.05em;
+        margin-bottom: 20px;
+    }
+    .requisites_text {
+        font-size: 14px;
+        line-height: 143%;
+        letter-spacing: 0.05em;
+    }
+    .requisites_social svg {
+        width: 30px !important;
+    }
 
 }
 @media screen and (max-width: 480px) {
