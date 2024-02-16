@@ -641,7 +641,7 @@ a {
 
 @media screen and (max-width: 950px) {
     .desc {
-        display: none;
+        display: none !important;
     }
     .mob {
         display: block;
