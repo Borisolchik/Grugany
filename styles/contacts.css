@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'TT Norms Pro', sans-serif;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+.mob {
+    display: none;
+}
+
+.contacts .container {
+    padding: 10px 80px 80px;
+}
+.contacts_title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 156%;
+    letter-spacing: 0.05em;
+    color: #161414;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.contacts_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 80px;
+}
+.contacts_item-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #161414;
+    margin-bottom: 20px;
+}
+.contacts_item-name {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 142%;
+    letter-spacing: 0.05em;
+    color: #161414;
+    margin-bottom: 26px;
+}
+.contacts_item-number {
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #161414;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contacts_item-number img {
+    max-width: 40px;
+}
+.contacts_item-mail {
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #161414;
+    gap: 20px;
+    align-items: center;
+}
+.contacts_item-mail img {
+    max-width: 40px;
+}
+
+.affiliate .container {
+    padding: 0 166px 105px;
+}
+.affiliate_box {
+    margin-bottom: 0;
+}
+
+.requisites .container {
+    padding: 0 80px 200px;
+}
+.requisites_title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 142%;
+    letter-spacing: 0.05em;
+    color: #161414;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.requisites_text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #161414;
+    margin-bottom: 40px;
+}
+.requisites_social {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1439px) {
+
+}
+@media screen and (max-width: 1350px) {
+
+}
+@media screen and (max-width: 1225px) {
+
+}
+@media screen and (max-width: 950px) {
+
+}
+@media screen and (max-width: 480px) {
+
+}
