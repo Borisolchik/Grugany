@@ -38,6 +38,9 @@ a {
     box-sizing: border-box;
     max-width: 390px;
 }
+.albums_item:hover {
+    transform: translateY(-40px);
+}
 .albums_item-image {
     max-width: 390px;
     width: 390px;
