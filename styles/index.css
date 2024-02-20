@@ -395,6 +395,10 @@ button:hover {
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 1px;
+    transition: 0.3s;
+}
+.info-action a:hover {
+    gap: 25px;
 }
 
 .partners-title {
@@ -430,6 +434,10 @@ button:hover {
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 1px;
+    transition: 0.3s;
+}
+.partners-action a:hover {
+    gap: 25px;
 }
 
 .news-title {
@@ -487,6 +495,10 @@ button:hover {
     line-height: 30px;
     letter-spacing: 1px;
     margin-bottom: 200px;
+    transition: 0.3s;
+}
+.news-action a:hover {
+    gap: 25px;
 }
 
 .footer {
