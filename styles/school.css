@@ -141,6 +141,8 @@ a {
     gap: 50px;
     overflow: hidden;
     padding: 21px 26px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .ribbon-item {
     color: #161414;
@@ -423,7 +425,7 @@ a {
 }
 
 .programs .container {
-    padding: 80px 20px 100px;
+    padding: 80px 20px 150px;
 }
 .programs_items {
     display: flex;

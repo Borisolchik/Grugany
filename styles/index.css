@@ -384,7 +384,7 @@ button:hover {
 .info-action {
     display: flex;
     justify-content: center;
-    margin-bottom: 120px;
+    margin-bottom: 170px;
 }
 .info-action a {
     display: flex;
@@ -422,7 +422,7 @@ button:hover {
 .partners-action {
     display: flex;
     justify-content: center;
-    margin-bottom: 48px;
+    margin-bottom: 148px;
     margin-top: 20px;
 }
 .partners-action a {
@@ -558,9 +558,21 @@ button:hover {
 .footer_info-social-link a {
     margin-right: 20px;
 }
+.footer_info-social-link a svg path {
+    transition: 0.4s;
+}
+.footer_info-social-link a:hover svg path {
+    fill: #F5C643;
+}
 .footer_info-social-phone {
     display: flex;
     align-items: center;
+}
+.footer_info-social-phone asvg path {
+    transition: 0.4s;
+}
+.footer_info-social-phone a:hover svg path {
+    fill: #F5C643;
 }
 .footer_info-social-number {
     margin-bottom: 7px;
@@ -570,7 +582,10 @@ button:hover {
     font-weight: 300;
     line-height: 30px;
     letter-spacing: 1px;
-
+    border-bottom: 1px solid transparent;
+}
+.footer_info-social-number:hover {
+    border-bottom: 1px solid #fff;
 }
 .footer_info-img {
     max-width: 115px;
