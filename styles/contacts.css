@@ -111,6 +111,12 @@ a {
     gap: 20px;
     justify-content: center;
 }
+.requisites_social a svg path {
+    transition: 0.4s;
+}
+.requisites_social a:hover svg path {
+    fill: #F5C643;
+}
 
 @media screen and (max-width: 1439px) {
 

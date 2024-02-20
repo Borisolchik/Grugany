@@ -37,9 +37,10 @@ a {
     border-radius: 4px;
     box-sizing: border-box;
     max-width: 390px;
+    transition: 0.5s;
 }
 .albums_item:hover {
-    transform: translateY(-40px);
+    transform: translateY(-20px);
 }
 .albums_item-image {
     max-width: 390px;
@@ -70,7 +71,9 @@ a {
     margin-bottom: 10px;
     margin-left: 6px;
 }
-
+.slick-dots {
+    bottom: -100px !important;
+}
 
 @media screen and (max-width: 1439px) {
     .albums .container {

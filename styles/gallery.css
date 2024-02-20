@@ -38,6 +38,7 @@ a {
 .gallery_item {
     max-width: 240px;
 }
+
 .gallery_item img {
     width: 100%;
 }
@@ -58,6 +59,10 @@ a {
     border: 1px solid #161414;
     border-radius: 4px;
     max-width: 300px;
+    transition: 0.4s;
+}
+.gallery_more-item:hover {
+    transform: translateY(-10px);
 }
 .gallery_more-item-image {
     border-radius: 4px 4px 0 0;
@@ -99,28 +104,6 @@ a {
     position: absolute;
     bottom: 80px;
     right: calc(50% - 160px);
-    background: #161414;
-    border-radius: 4px;
-    padding: 5px 7px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 187%;
-    letter-spacing: 0.05em;
-    color: #fcfcfc;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    cursor: pointer;
-}
-.prev{
-    border: 1px solid #161414;
-    border-radius: 4px;
-    width: 150px;
-    height: 40px;
-    padding: 5px 8px;
-    position: absolute;
-    left: calc(50% - 170px);
-    bottom: 80px;
     font-weight: 400;
     font-size: 16px;
     line-height: 187%;
@@ -130,7 +113,35 @@ a {
     align-items: center;
     gap: 10px;
     cursor: pointer;
+    transition: 0.3s;
+}
+.next:hover {
+    gap: 15px;
+}
+.prev{
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    left: calc(50% - 170px);
+    bottom: 80px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: 0.05em;
+    color: #161414;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
     z-index: 10;
+    transition: 0.3s;
+}
+.prev:hover {
+    gap: 15px;
+}
+.prev:hover {
+    gap: 15px;
 }
 .gallery_action {
     display: flex;
@@ -149,6 +160,14 @@ a {
     letter-spacing: 0.05em;
     color: #161414;
     padding: 5px 7px;
+    transition: 0.3s;
+}
+.gallery_action-share:hover {
+    background: #161414;
+    color: white;
+}
+.gallery_action-share:hover svg path {
+    stroke: white;
 }
 .gallery_action-download {
     display: flex;
@@ -162,6 +181,16 @@ a {
     letter-spacing: 0.05em;
     color: #fcfcfc;
     padding: 5px 7px;
+    border: 1px solid white;
+    transition: 0.3s;
+}
+.gallery_action-download:hover {
+    background: white;
+    color: #161414;
+    border: 1px solid #161414;
+}
+.gallery_action-download:hover svg path{
+    stroke: #161414;
 }
 
 @media screen and (max-width: 1439px) {

@@ -26,6 +26,7 @@ button:hover {
     overflow: hidden;
     position: fixed;
     top: 0;
+    z-index: 999999;
 }
 
 .popup-item-content {
@@ -291,6 +292,25 @@ button:hover {
 }
 .header-mob {
     display: none;
+}
+
+.header_scroll {
+    display: none;
+}
+.header_scroll .container {
+    padding: 5px 80px;
+
+}
+
+.header_fixed {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    background: white;
+    z-index: 9999;
+    width: 100%;
+    box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -706,6 +726,9 @@ button:hover {
 }
 
 @media screen and (max-width: 950px) {
+    .header-scroll {
+        display: none!important;
+    }
     .desc {
         display: none !important;
     }
