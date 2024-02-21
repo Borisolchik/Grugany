@@ -19,6 +19,7 @@ button:hover {
     transform: translateY(-6px);
 }
 
+
 .popup-item {
     width: 100%;
     min-height: 100%;
@@ -726,7 +727,7 @@ button:hover {
 }
 
 @media screen and (max-width: 950px) {
-    .header-scroll {
+    .header_scroll {
         display: none!important;
     }
     .desc {
