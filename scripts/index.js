@@ -158,3 +158,7 @@ function PopUpHide2(){
     $("#popup-item-success").hide();
 }
 
+let map = document.getElementById('affiliate_map-transparent');
+map.addEventListener('click', function () {
+    map.style.display = "none";
+})

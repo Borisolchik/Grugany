@@ -37,10 +37,17 @@ a {
 }
 .gallery_item {
     max-width: 240px;
+    overflow:hidden;
 }
 
 .gallery_item img {
     width: 100%;
+    transition: 0.3s;
+}
+.gallery_item img:hover {
+    width: 100%;
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .gallery_more-title {
     font-weight: 700;

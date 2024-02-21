@@ -14,6 +14,9 @@ a {
 .mob {
     display: none !important;
 }
+button {
+    transition: 0.3s;
+}
 button:hover {
     box-shadow: 0 6px 0 0 #6e5100;
     transform: translateY(-6px);
@@ -589,7 +592,7 @@ button:hover {
     display: flex;
     align-items: center;
 }
-.footer_info-social-phone asvg path {
+.footer_info-social-phone a svg path {
     transition: 0.4s;
 }
 .footer_info-social-phone a:hover svg path {
@@ -727,6 +730,10 @@ button:hover {
 }
 
 @media screen and (max-width: 950px) {
+    button:hover {
+        box-shadow: none;
+        transform: none;
+    }
     .header_scroll {
         display: none!important;
     }

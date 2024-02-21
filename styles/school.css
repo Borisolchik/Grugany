@@ -325,10 +325,19 @@ a {
 }
 .affiliate_map {
     position: relative;
+}
+.affiliate_map-transparent {
+    position: absolute;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+}
+.affiliate_map-desc {
     border: 1px solid #161414;
 }
 .affiliate_map-mob {
     display: none;
+    border: 1px solid #161414;
 }
 .affiliate_map-bg {
     position: absolute;
