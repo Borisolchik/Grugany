@@ -16,7 +16,7 @@ a {
 }
 
 .contacts .container {
-    padding: 10px 80px 80px;
+    padding: 10px 80px 130px;
 }
 .contacts_title {
     font-weight: 700;
@@ -31,8 +31,8 @@ a {
 .contacts_items {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 80px;
+    justify-content: start;
+    gap: 80px 130px;
 }
 .contacts_item-title {
     font-weight: 400;
@@ -95,6 +95,7 @@ a {
     letter-spacing: 0.05em;
     color: #161414;
     margin-bottom: 40px;
+    margin-top: 50px;
     text-align: center;
 }
 .requisites_text {

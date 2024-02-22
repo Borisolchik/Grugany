@@ -77,6 +77,9 @@ a {
     letter-spacing: 0.05em;
     color: #161414;
 }
+.partners_item-logo {
+    height: 60px;
+}
 
 @media screen and (max-width: 1439px) {
     .partners_items {
@@ -118,6 +121,7 @@ a {
     }
     .partners_item-logo {
         max-width: 120px;
+        height: 42px;
     }
     .partners_item-logo img{
         width: 100%;
