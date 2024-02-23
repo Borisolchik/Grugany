@@ -665,6 +665,13 @@ a {
 }
 
 @media screen and (max-width: 950px) {
+    .affiliate-description.mob {
+        display: block!important;
+        margin-top: 40px;
+    }
+    .affiliate-action.mob {
+        display: flex!important;
+    }
     .banner .container {
         padding: 50px 20px 36px;
     }
@@ -818,6 +825,7 @@ a {
     .affiliate_box {
         margin-bottom: 95px;
         justify-content: center;
+        gap: 60px;
     }
     .affiliate_addresses-item {
         gap: 10px;
