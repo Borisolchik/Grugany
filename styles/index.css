@@ -465,16 +465,9 @@ button:hover {
     text-align: center;
     margin-bottom: 40px;
 }
-.news-items {
+.news-items-main {
     padding: 0 90px 0 80px;
-    display: flex;
-    gap: 50px;
-    justify-content: space-between;
-    overflow-x: auto;
     margin-bottom: 40px;
-}
-.news-items::-webkit-scrollbar {
-    display: none;
 }
 .new-item img {
     width: 280px;
@@ -660,7 +653,7 @@ button:hover {
     }
     /* info end */
 
-    .news-items {
+    .news-items-main {
         /*gap: 20px;*/
     }
 }
@@ -1029,7 +1022,7 @@ button:hover {
         max-width: 120px;
     }
 
-    .news-items {
+    .news-items-main {
         padding: 0 20px;
     }
     .new-item {
@@ -1174,23 +1167,25 @@ button:hover {
         letter-spacing: 1px;
         margin-bottom: 20px;
     }
-    .news-items {
+    .news-items-main {
         padding: 0 20px;
         gap: 10px;
     }
     .new-item img {
-        width: 120px;
+        width: 155px;
     }
     .new-item-title {
         font-size: 12px;
         line-height: 18px;
         letter-spacing: 0.6px;
         margin: 10px 0;
+        max-width: 155px;
     }
     .new-item-date {
         font-size: 10px;
         line-height: 20px;
         letter-spacing: 0.5px;
+        margin-bottom: 20px;
     }
     .news-action {
         gap: 10px;

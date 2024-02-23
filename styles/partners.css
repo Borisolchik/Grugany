@@ -169,6 +169,9 @@ a {
         line-height: 143%;
         letter-spacing: 0.05em;
     }
+    .partners_banks-item-link a {
+        font-size: 16px;
+    }
 }
 @media screen and (max-width: 480px) {
 }

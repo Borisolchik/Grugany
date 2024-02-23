@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
     PopUpHide();
 
@@ -97,6 +98,45 @@ $('.news_items').slick({
     dots: true,
 });
 
+$('.article_more-items').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    dots: false,
+    responsive: [
+        {
+            breakpoint: 950,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                dots: true,
+            }
+        },
+    ]
+});
+$('.news-items-main').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    dots: false,
+    responsive: [
+        {
+            breakpoint: 1440,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                dots: true,
+            }
+        },
+        {
+            breakpoint: 1055,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                dots: true,
+            }
+        },
+    ]
+});
+
 $('.article_items').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -137,14 +177,16 @@ for (let i = 3; i < array1.length; i++) {
     array1[i].classList.add('none');
 }
 const button1 = document.querySelector('#trainers_btn');
-button1.addEventListener('click', () => {
-    let elements1 = document.querySelectorAll('.trainers-item.none');
+if (button1) {
+    button1.addEventListener('click', () => {
+        let elements1 = document.querySelectorAll('.trainers-item.none');
 
-    for (let i = 0; i < elements1.length; i++) {
-        elements1[i].classList.remove('none');
-    }
-    button1.classList.add('none');
-});
+        for (let i = 0; i < elements1.length; i++) {
+            elements1[i].classList.remove('none');
+        }
+        button1.classList.add('none');
+    });
+}
 
 function PopUpShow(){
     $("#popup-item").show();
@@ -159,6 +201,8 @@ function PopUpHide2(){
 }
 
 let map = document.getElementById('affiliate_map-transparent');
-map.addEventListener('click', function () {
-    map.style.display = "none";
-})
+if (map) {
+    map.addEventListener('click', function () {
+        map.style.display = "none";
+    })
+}
