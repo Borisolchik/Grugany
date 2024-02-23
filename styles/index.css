@@ -1022,15 +1022,19 @@ button:hover {
         max-width: 120px;
     }
 
-    .news-items-main {
+    .news .container {
         padding: 0 20px;
     }
+    .news-items-main {
+        padding: 0;
+        margin: 0 -5px;
+    }
     .new-item {
-        max-width: 160px;
-        padding: 0 5px;
+        /*max-width: 160px;*/
+        /*padding: 0 5px;*/
     }
     .new-item img {
-        width: 160px;
+        width: 100%;
     }
 
     .footer .container {
@@ -1127,6 +1131,9 @@ button:hover {
         line-height: 187%;
         letter-spacing: 0.05em;
     }
+    .news-items-main .slick-slide {
+        padding: 0 5px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -1168,12 +1175,12 @@ button:hover {
         margin-bottom: 20px;
     }
     .news-items-main {
-        padding: 0 20px;
-        gap: 10px;
+        /*padding: 0 20px;*/
+        /*gap: 10px;*/
     }
-    .new-item img {
-        width: 155px;
-    }
+    /*.new-item img {*/
+    /*    width: 155px;*/
+    /*}*/
     .new-item-title {
         font-size: 12px;
         line-height: 18px;
