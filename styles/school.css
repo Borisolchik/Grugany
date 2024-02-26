@@ -15,6 +15,45 @@ a {
     display: none;
 }
 
+.wrap {
+    max-width: 100%;
+    margin: auto;
+    padding: 21px 0;
+}
+.items-wrap {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: 20px;
+}
+.items {
+    flex-shrink: 0;
+    display: flex;
+    gap: 84px;
+    counter-reset: item;
+    justify-content: space-around;
+    min-width: 100%;
+}
+
+.marquee {
+    animation: scroll 60s linear infinite;
+}
+.reverce {
+    animation-direction: reverse;
+}
+
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(calc(-100% - 20px));
+    }
+}
+
+
 .banner .container {
     position: relative;
     padding: 0 80px 262px;
@@ -66,6 +105,11 @@ a {
     height: auto;
 }
 
+.advantages {
+    background-image: url("../images/advantages_bg.png");
+    background-position: center;
+    background-size: cover;
+}
 .advantages .container {
     padding: 80px 0;
 }
@@ -79,7 +123,7 @@ a {
     margin-bottom: 40px;
 }
 .advantages_items {
-    background-image: url("../images/advantages_bg.png");
+    /*background-image: url("../images/advantages_bg.png");*/
     background-position: center;
     background-size: cover;
     display: flex;
@@ -135,14 +179,14 @@ a {
     bottom: -55px;
 }
 
-.ribbon {
+.ribbon{
     background: #F5C643;
     display: flex;
     gap: 50px;
     overflow: hidden;
     padding: 21px 26px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    /*margin-top: 50px;*/
+    /*margin-bottom: 50px;*/
 }
 .ribbon-item {
     color: #161414;
@@ -213,9 +257,12 @@ a {
     border: none;
     cursor: pointer;
 }
-
-.photos .container {
+.photos {
     background-image: url("../images/photos_bg.png");
+    background-position: center;
+    background-size: cover;
+}
+.photos .container {
     background-position: center;
     background-size: cover;
     padding: 81px 20px 119px;
@@ -363,8 +410,14 @@ a {
     cursor: pointer;
 }
 
-.video .container {
+.video {
     background: url("../images/video_bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.video .container {
+    /*background: url("../images/video_bg.png");*/
     background-size: cover;
     background-position: center;
     padding: 116px 20px 84px;
@@ -697,7 +750,9 @@ a {
         letter-spacing: 0.8px;
         margin-bottom: 20px;
     }
-
+    .advantages {
+        background-image: none;
+    }
     .advantages_items {
         background-image: url("../images/advantages_bg_mob.png");
     }
@@ -708,6 +763,8 @@ a {
     .ribbon {
         gap: 40px;
         padding: 3px 20px;
+        margin-top: 0;
+        margin-bottom: 0;
     }
     .ribbon-item {
         font-size: 20px;
@@ -859,6 +916,9 @@ a {
         font-size: 14px; font-weight: 700; line-height: 30px; letter-spacing: 0.70px;
     }
 
+    .video {
+        background-image: none;
+    }
     .video .container {
         background-image: url("../images/video_bg-mob.png");
     }

@@ -22,6 +22,10 @@ button:hover {
     transform: translateY(-6px);
 }
 
+button a {
+    color: #161414;
+}
+
 
 .popup-item {
     width: 100%;
@@ -74,6 +78,9 @@ button:hover {
     height: 48px;
     padding: 9px 23px;
     margin-top: 10px;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
 }
 
 .popup-input::placeholder {
@@ -284,9 +291,6 @@ button:hover {
     transition-duration: .2s;
     margin-left: 16px;
 }
-.header_action button:hover {
-    background: rgba(245, 198, 67, 0.8);
-}
 .header-mob {
     display: none;
 }
@@ -296,7 +300,6 @@ button:hover {
 }
 .header_scroll .container {
     padding: 5px 80px;
-
 }
 .header_fixed {
     position: fixed;
@@ -322,7 +325,7 @@ button:hover {
 }
 .main_boy {
     position: absolute;
-    top: 180px;
+    top: 181px;
     right: 80px;
     width: 443px;
 }
@@ -417,6 +420,11 @@ button:hover {
     gap: 25px;
 }
 
+.partners {
+    background-image: url("../images/partners_background.png");
+    background-position: center;
+    background-size: cover;
+}
 .partners-title {
     color: #161414;
     font-size: 32px;
@@ -427,9 +435,6 @@ button:hover {
     margin-bottom: 40px;
 }
 .partners-items {
-    background-image: url("../images/partners_background.png");
-    background-position: center;
-    background-size: cover;
     display: flex;
     flex-wrap: wrap;
     gap: 80px 90px;
@@ -631,6 +636,10 @@ button:hover {
     .header_menu {
         margin-right: 0;
     }
+    .header_scroll .container {
+        gap: 22px;
+    }
+
     /* header end */
 
     /* info start */
@@ -667,6 +676,9 @@ button:hover {
     }
     .header_action button {
         margin-left: 0;
+    }
+    .header_scroll .container {
+        padding: 5px 20px;
     }
 
     .main .container {
@@ -1014,6 +1026,7 @@ button:hover {
 
     .partners-items {
     gap: 60px;
+        justify-content: center;
     }
     .partners-item svg {
         max-width: 100px;
@@ -1142,8 +1155,13 @@ button:hover {
         line-height: 14px;
         letter-spacing: 0.5px;
     }
+    .partners {
+        background-image: none;
+    }
     .partners-items {
         background-image: url("../images/partners_background_mob.png");
+        background-position: center;
+        background-size: cover;
         padding: 56px 40px;
         justify-content: center;
     }
