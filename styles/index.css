@@ -25,7 +25,12 @@ button:hover {
 button a {
     color: #161414;
 }
-
+.gallery_more .slick-slider .slick-track,.gallery_more .slick-slider .slick-list {
+    overflow: visible;
+}
+.article_more .slick-slider .slick-track,.article_more .slick-slider .slick-list {
+    overflow: visible;
+}
 
 .popup-item {
     width: 100%;
@@ -245,6 +250,7 @@ button a {
 }
 .header_menu ul li a:hover {
     border-bottom: 1px solid #161414;
+    width: fit-content;
 }
 .header_menu-item:hover .dropdown-content {
     display: flex;
@@ -645,6 +651,9 @@ button a {
     /* info start */
     .info_text-main {
         max-width: 590px;
+    }
+    .partners-items {
+        justify-content: center;
     }
     /* info end */
 }
@@ -1066,6 +1075,7 @@ button a {
         border-bottom: 1px solid #FCFCFC;
         width: 69px;
         margin-top: 20px;
+        display: block;
     }
     .footer-left {
         margin-top: 0;

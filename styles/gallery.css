@@ -270,4 +270,7 @@ a {
     }
 }
 @media screen and (max-width: 480px) {
+    .gallery_more-item:hover {
+        transform: inherit;
+    }
 }
