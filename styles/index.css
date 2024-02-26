@@ -420,7 +420,7 @@ button a {
     gap: 25px;
 }
 
-.partners {
+.partners-main {
     background-image: url("../images/partners_background.png");
     background-position: center;
     background-size: cover;
@@ -1155,7 +1155,7 @@ button a {
         line-height: 14px;
         letter-spacing: 0.5px;
     }
-    .partners {
+    .partners-main {
         background-image: none;
     }
     .partners-items {
