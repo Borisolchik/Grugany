@@ -426,7 +426,7 @@ a {
 }
 
 .principles .container {
-    padding: 80px 80px 100px;
+    padding: 80px 80px 80px;
 }
 .principles_title {
     font-weight: 700;
@@ -488,6 +488,7 @@ a {
 
 .programs .container {
     padding: 80px 20px 150px;
+    margin-top: 80px;
 }
 .programs_items {
     display: flex;
@@ -701,6 +702,7 @@ a {
 
     .programs .container {
         padding: 60px 20px 80px;
+        maargin-top: 0;
     }
     .programs_items {
         gap: 60px;

@@ -327,7 +327,8 @@ button a {
 }
 .main_name-logo {
     position: absolute;
-    top: 108px;
+    /*top: 108px;*/
+    top: 75px;
     right: 80px;
     width: 902px;
 }
@@ -346,7 +347,7 @@ button a {
     max-width: 613px;
     margin-left: 26px;
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 .main_info-quotes-left {
     position: absolute;
