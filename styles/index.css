@@ -21,7 +21,9 @@ button:hover {
     box-shadow: 0 6px 0 0 #6e5100;
     transform: translateY(-6px);
 }
-
+.footer-left-bottom-mob {
+    display: none;
+}
 button a {
     color: #161414;
 }
@@ -354,7 +356,7 @@ button a {
 .main_info-quotes-right {
     position: absolute;
     bottom: -14px;
-    right: 0;
+    right: 20px;
 }
 .main_description {
     margin-lefT: 26px;
@@ -489,8 +491,8 @@ button a {
     font-weight: 700;
     line-height: 30px;
     letter-spacing: 0.8px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    /*margin-top: 20px;*/
+    /*margin-bottom: 10px;*/
     max-width: 280px;
 }
 .new-item-date {
@@ -499,6 +501,8 @@ button a {
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.7px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 .news-action {
     display: flex;
@@ -632,10 +636,49 @@ button a {
     border-bottom: 1px solid #FCFCFC;
     padding-bottom: 8px;
 }
+
+.policy .container {
+    padding: 0 80px 120px;
+}
+.policy_title {
+    color: #161414;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 1.2px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.policy_subtitle {
+    color: #161414;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.8px;
+     margin-top: 20px;
+     margin-bottom: 10px;
+}
+.policy_text {
+    color: #161414;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.policy_description {
+    color: #161414;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-top: 40px;
+}
 /* footer end */
 
 @media screen and (max-width: 1439px) {
-    /* header start */
     .header .logo {
         margin-right: 0;
     }
@@ -646,33 +689,21 @@ button a {
         gap: 22px;
     }
 
-    /* header end */
-
-    /* info start */
     .info_text-main {
         max-width: 590px;
     }
     .partners-items {
         justify-content: center;
     }
-    /* info end */
 }
 
 @media screen and (max-width: 1350px) {
-    /* header start */
     .header_menu ul {
         gap: 20px;
     }
-    /* header end */
 
-    /* info start */
     .info_text-main {
         max-width: 490px;
-    }
-    /* info end */
-
-    .news-items-main {
-        /*gap: 20px;*/
     }
 }
 
@@ -733,6 +764,10 @@ button a {
     }
     .popup-btn {
         margin-top: 40px;
+    }
+
+    .policy .container {
+        padding: 0 20px 120px;
     }
 }
 
@@ -1157,6 +1192,28 @@ button a {
     .news-items-main .slick-slide {
         padding: 0 5px;
     }
+
+    .policy .container {
+        padding: 50px 20px 100px;
+    }
+
+    .policy_title {
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 1px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .policy_subtitle {
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: 0.6px;
+    }
+    .policy_text {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.7px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -1213,14 +1270,15 @@ button a {
         font-size: 12px;
         line-height: 18px;
         letter-spacing: 0.6px;
-        margin: 10px 0;
+        /*margin: 10px 0;*/
         max-width: 155px;
+        margin-bottom: 20px;
     }
     .new-item-date {
         font-size: 10px;
         line-height: 20px;
         letter-spacing: 0.5px;
-        margin-bottom: 20px;
+        margin: 10px 0;
     }
     .news-action {
         gap: 10px;

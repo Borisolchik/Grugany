@@ -129,7 +129,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 40px;
+    gap: 80px 40px;
     padding: 113px 163px 185px;
 }
 .advantages_item {
@@ -720,7 +720,7 @@ a {
 @media screen and (max-width: 950px) {
     .affiliate-description.mob {
         display: block!important;
-        margin-top: 40px;
+        margin-top: 80px;
     }
     .affiliate-action.mob {
         display: flex!important;
@@ -909,7 +909,7 @@ a {
         left: -19px;
     }
     .affiliate-description {
-        font-size: 16px; font-weight: 400; line-height: 30px; letter-spacing: 0.80px; margin-bottom: 10px; margin-top: 100px;
+        font-size: 16px; font-weight: 400; line-height: 30px; letter-spacing: 0.80px; margin-bottom: 10px; margin-top: 80px;
     }
     .affiliate-action button {
         width: 125px; height: 30px;
@@ -969,7 +969,7 @@ a {
 
     .programs_items {
         flex-wrap: wrap;
-        gap: 40px;
+        gap: 80px;
         margin-bottom: 80px;
     }
     .programs_item-title {
@@ -1019,6 +1019,9 @@ a {
         line-height: 143%;
         letter-spacing: 0.05em;
     }
+    .mob {
+        display: block !important;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -1029,7 +1032,7 @@ a {
     }
 
     .advantages .container {
-        padding: 60px 0 0;
+        padding: 0;
     }
     .advantages_title {
         font-size: 20px;

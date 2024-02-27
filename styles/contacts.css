@@ -118,6 +118,15 @@ a {
 .requisites_social a:hover svg path {
     fill: #F5C643;
 }
+.affiliate_map {
+    position: relative;
+}
+.affiliate_map-transparent {
+    position: absolute;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+}
 
 @media screen and (max-width: 1439px) {
 

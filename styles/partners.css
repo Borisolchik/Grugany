@@ -16,7 +16,7 @@ a {
 }
 
 .partners .container {
-    padding: 0 80px 80px;
+    padding: 0 80px 120px;
 }
 .partners_title {
     font-weight: 700;
@@ -114,14 +114,14 @@ a {
     }
     .partners_title {
         margin-top: 36px;
-        margin-bottom: 40px;
+        margin-bottom: 80px;
         font-size: 20px;
         line-height: 150%;
         letter-spacing: 0.05em;
     }
     .partners_item-logo {
         max-width: 120px;
-        height: 42px;
+        height: auto;
     }
     .partners_item-logo img{
         width: 100%;
@@ -130,7 +130,7 @@ a {
         gap: 40px;
     }
     .partners_item-text {
-        margin-top: 20px;
+        margin-top: 10px;
         font-size: 14px;
         line-height: 143%;
         letter-spacing: 0.05em;

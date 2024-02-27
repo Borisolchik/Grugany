@@ -130,4 +130,7 @@ a {
     .albums_items {
         padding: 0 30px;
     }
+    .albums_item:hover {
+        transform: none;
+    }
 }
