@@ -1,7 +1,5 @@
-
 $(document).ready(function() {
-    PopUpHide();
-
+    // PopUpHide();
     const isMobile = {
         Android: function () {
             return navigator.userAgent.match(/Android/i)
@@ -57,6 +55,18 @@ $(document).ready(function() {
     }
 
 });
+
+function PopUpShow(){
+    $("#popup-item")[0].style.display = 'block';
+    const menuBody = document.body.querySelector('.menu__body')
+    menuBody.classList.remove('_active');
+}
+function PopUpHide(){
+    $("#popup-item")[0].style.display = 'none';
+}
+function PopUpHide2(){
+    $("#popup-item-success")[0].style.display = 'none';
+}
 $(function() {
     let header = $('.header_scroll');
 
@@ -127,9 +137,10 @@ $('.news-items-main').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
     dots: false,
+    arrows : false,
     responsive: [
         {
-            breakpoint: 1440,
+            breakpoint: 1310,
             settings: {
                 slidesToShow: 3,
                 slidesToScroll: 1,
@@ -224,18 +235,6 @@ $('.gallery_slider').slick({
 //         button1.classList.add('none');
 //     });
 // }
-
-function PopUpShow(){
-    $("#popup-item").show();
-    const menuBody = document.body.querySelector('.menu__body')
-    menuBody.classList.remove('_active');
-}
-function PopUpHide(){
-    $("#popup-item").hide();
-}
-function PopUpHide2(){
-    $("#popup-item-success").hide();
-}
 
 let map = document.getElementById('affiliate_map-transparent');
 if (map) {

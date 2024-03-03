@@ -34,6 +34,16 @@ button a {
     overflow: visible;
 }
 
+.news-items-main .slick-dots {
+    width: -webkit-fill-available;
+}
+.news-items-main .slick-next {
+    display: none !important;
+}
+.news-items-main .slick-prev {
+    display: none !important;
+}
+
 .popup-item {
     width: 100%;
     min-height: 100%;
@@ -42,6 +52,9 @@ button a {
     position: fixed;
     top: 0;
     z-index: 999999;
+}
+#popup-item {
+    display: none;
 }
 .popup-item-content {
     margin: 50px auto 0 auto;
@@ -286,9 +299,10 @@ button a {
     border-radius: 4px;
     background: #F5C643;
     color: #161414;
-    font-size: 14px;
+    /*font-size: 14px;*/
+    font-size: 13px;
     font-weight: 700;
-    line-height: 30px;
+    /*line-height: 30px;*/
     border: none;
     display: flex;
     justify-content: center;
@@ -979,12 +993,13 @@ button a {
         font-size: 14px;
         font-style: normal;
         font-weight: 700;
-        line-height: 30px;
+        /*line-height: 30px;*/
         letter-spacing: 0.7px;
         width: 125px;
-        height: 30px;
+        /*height: 30px;*/
         box-sizing: border-box;
         border: none;
+        padding: 8px 10px;
     }
     .header-mob_info-phone {
         display: flex;

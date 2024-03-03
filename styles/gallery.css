@@ -204,6 +204,9 @@ a {
 .gallery_action-download:hover svg path{
     stroke: #161414;
 }
+.gallery .slick-track {
+    margin-left: 0;
+}
 
 @media screen and (max-width: 1439px) {
 }
