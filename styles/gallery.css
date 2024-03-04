@@ -62,9 +62,12 @@ a {
     border-radius: 4px;
     max-width: 300px;
     transition: 0.4s;
+    width: 300px;
+    margin: 0 10px;
 }
 .gallery_more-items {
     margin: 0 -10px;
+    display: flex;
 }
 .gallery_more-items .slick-slide {
     margin: 0 10px;
@@ -76,6 +79,7 @@ a {
     border-radius: 4px 4px 0 0;
     margin-top: -1px;
     margin-left: -1px;
+    max-width: 300px;
 }
 .gallery_more-item-image img{
     border-radius: 4px 4px 0 0;

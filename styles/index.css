@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'TT Norms Pro', sans-serif;
 }
+body {
+    background-color: #FCFCFC;
+}
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -263,9 +266,22 @@ button a {
 .header_menu-item {
     position: relative;
 }
-.header_menu ul li a:hover {
-    border-bottom: 1px solid #161414;
-    width: fit-content;
+.header_menu ul li a {
+    position: relative;
+}
+.header_menu ul li a::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -5px;
+    display: block;
+    height: 1px;
+    background: #161414;
+    width: 0;
+    transition: 0.3s;
+}
+.header_menu ul li a:hover:after {
+    width: 100%;
 }
 .header_menu-item:hover .dropdown-content {
     display: flex;
@@ -278,8 +294,19 @@ button a {
     color: #fcfcfc !important;
     border-bottom: 1px solid transparent;
 }
-.dropdown-content a:hover {
-    border-bottom: 1px solid #fcfcfc !important;
+.dropdown-content a::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -5px;
+    display: block;
+    height: 1px;
+    background: #fcfcfc!important;
+    width: 0;
+    transition: 0.3s;
+}
+.dropdown-content a:after {
+    width: 100%;
 }
 .header_action-box {
     display: flex;
@@ -351,6 +378,7 @@ button a {
     top: 181px;
     right: 80px;
     width: 443px;
+    z-index: -1;
 }
 .main_info {
     color: #161414;
@@ -569,9 +597,22 @@ button a {
     letter-spacing: 1px;
     text-decoration: none;
     border-bottom: 1px solid transparent;
+    position: relative;
 }
-.footer_nav ul li a:hover {
-    border-bottom: 1px solid #fcfcfc;
+
+.footer_nav ul li a::after {
+     position: absolute;
+     content: '';
+     left: 0;
+     bottom: -5px;
+     display: block;
+     height: 1px;
+     background: #fcfcfc !important;
+     width: 0;
+     transition: 0.3s;
+ }
+.footer_nav ul li a:hover::after {
+    width: 100%;
 }
 .footer-left-bottom {
     color: #FCFCFC;
